@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -44,10 +47,10 @@
     <section id="myinspiration">
         <h1>my inspiration</h1>
         <a href="https://en.wikipedia.org/wiki/Ferruccio_Lamborghini" target="_blank">
-        <img src="stefano_domenicali_21_2.jpg">
+            <img src="stefano_domenicali_21_2.jpg">
         </a>
         <br><br>
-       <h1>he is my inpiration because i want to makke a buisnss of cars and after seeing the lamborghinis they are my favourite cars </h1>
+        <h1>he is my inpiration because i want to makke a buisnss of cars and after seeing the lamborghinis they are my favourite cars </h1>
     </section>
 
     <section id="mywork">
@@ -67,14 +70,41 @@
 
     <section id="mygames">
         <h1>games</h1>
-        <a href="https://studio.code.org/projects/spritelab/iYl0vpL02oGXH7YJLVco9t9KsHGTap1ml1H4lb0oNus" target="_blank">
-            <img src="gold.png">
-        </a>
-        <a href="https://studio.code.org/projects/spritelab/iYl0vpL02oGXH7YJLVco9t9KsHGTap1ml1H4lb0oNus" target="_blank">
-            <img src="flappy.jpg">
-        </a>
-    </section>
+        <h2>click on the games to explore</h2>
+        <div id="mycarousel" class="carousel slide">
+            <div class="item active">
+                <center>
+                    <a href="https://studio.code.org/projects/spritelab/iYl0vpL02oGXH7YJLVco9t9KsHGTap1ml1H4lb0oNus" target="_blank">
+                        <img src="gold.png" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>collect the gold</p>
+                    </div>
+                </center>
+            </div>
 
+            <div class="item ">
+                <center>
+                    <a href="https://studio.code.org/projects/spritelab/iYl0vpL02oGXH7YJLVco9t9KsHGTap1ml1H4lb0oNus" target="_blank">
+                        <img src="flappy.jpg" class="img-responsive">
+                    </a>
+                    <div class="carousel-content">
+                        <p>flappy bird</p>
+                    </div>
+                </center>
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            
+             <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+    
+       
+    </section>
     <section id="mychatbot">
         <h1>chatbots</h1>
         <iframe allow="microphone;" width="450" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/8ba37c15-9fa5-4bb8-8822-91d0c07874f4">
@@ -84,5 +114,20 @@
     </section>
 
 
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5891.3422388716235!2d77.44601605281137!3d28.599385203593602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff9b1c0d397%3A0xc224869b0b0bb14b!2sCherry%20County!5e0!3m2!1sen!2sin!4v1613213509762!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="contact1">
+            <a href="mailto:devyash140709@gmail.com?Subject=hello">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>gmail:devyash140709@gmail.com</h3>
+            </a>
+            <br><br>
 
-</body></html>
+            <a href="#">
+                <i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>devyash mishra</h3>
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
